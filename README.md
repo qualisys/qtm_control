@@ -32,6 +32,6 @@ _Requires [CMake](https://cmake.org/download) v3.50 or greater._
   cd build
   cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=<install-path>
   cmake --build . --config Release
-  cmake --build . --target=install
+  cmake --build . --target install
   cd ..
 ```
